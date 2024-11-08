@@ -11,9 +11,14 @@ html,body{
     background-color: black;
 }
 .container{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(images/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card{
@@ -24,6 +29,7 @@ html,body{
    text-align: center;
    border-radius: 20px;
    margin-top: 5rem;
+   
 }
 .search{
     width: 100%;
